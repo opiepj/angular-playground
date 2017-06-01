@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/_variables.scss';
+
+// Defined colors
+$primary-area-color: #4a95c4;
+
+
+// Updated bootstrap variables
+
+$bg-color: lighten($primary-area-color, 25%);
+$body-bg: $bg-color;
+$enable-flex: true;
+$font-family: sans-serif,"Courier New", Courier, monospace;
+$jumbotron-bg: $primary-area-color;

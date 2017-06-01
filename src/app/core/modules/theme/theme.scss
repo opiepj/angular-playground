@@ -1,0 +1,7 @@
+@import "./theme-variables";
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: $font-family;
+}

@@ -1,0 +1,16 @@
+<div *ngIf="friends">
+  <ul>
+    <li *ngFor="let friend of friends">
+      <a [acnHighlight]="'cyan'" (click)="select(friend)">{{friend.first | firstLetter}} {{friend.last | firstLetter}}</a>
+    </li>
+  </ul>
+</div>
+<div *ngIf="!friends">
+  <p>Loading...</p>
+</div>
+<div>
+  <p *ngIf="selectedFriend">Selected Friend: {{selectedFriend.first | firstLetter}} {{selectedFriend.last | firstLetter}}</p>
+</div>
+<div>
+  <button (click)="update()">Update Favorite Friend</button>
+</div>

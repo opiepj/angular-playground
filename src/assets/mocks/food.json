@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "apples",
+    "category": "fruit"
+  },
+  {
+    "id": 2,
+    "name": "pears",
+    "category": "fruit"
+  },
+  {
+    "id": 3,
+    "name": "oranges",
+    "category": "fruit"
+  },
+  {
+    "id": 4,
+    "name": "grapes",
+    "category": "fruit"
+  },
+  {
+    "id": 5,
+    "name": "chicken",
+    "category": "meat"
+  },
+  {
+    "id": 6,
+    "name": "pizza",
+    "category": "meat"
+  }
+]

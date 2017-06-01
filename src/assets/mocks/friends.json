@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "first": "bob",
+    "last": "furgenson"
+  },
+  {
+    "id": 2,
+    "first": "akersh",
+    "last": "stevens"
+  },
+  {
+    "id": 3,
+    "first": "jackson",
+    "last": "pawol"
+  },
+  {
+    "id": 4,
+    "first": "tina",
+    "last": "hoorta"
+  },
+  {
+    "id": 5,
+    "first": "gorgini",
+    "last": "gergely"
+  },
+  {
+    "id": 6,
+    "first": "titus",
+    "last": "lewis"
+  }
+]

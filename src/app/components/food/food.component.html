@@ -1,0 +1,19 @@
+<div *ngIf="bin">
+  <div *ngFor="let category of bin.basket">
+    <h2>{{category.name | firstLetter}}</h2>
+    <ul>
+      <li *ngFor="let food of category.items">
+        <a [acnHighlight]="category.color" (click)="select(food)">{{food.name}}</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div *ngIf="!bin">
+  <p>Loading...</p>
+</div>
+<div>
+  <p *ngIf="selectedFood">Selected Food: {{selectedFood.name}}</p>
+</div>
+<div>
+  <button (click)="update()">Update Favorite Food</button>
+</div>
